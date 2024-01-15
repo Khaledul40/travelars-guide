@@ -1,0 +1,133 @@
+/* mulish font form google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+.para{
+    color: #131318;;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+
+/* header styles */
+header{
+    padding: 50px 135px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+}
+.logo h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+
+.menu > ul{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+#travel{
+    color: #FF5400;
+}    
+.menu li a{
+    text-decoration: none;
+    color: #424247;
+}
+
+.banner{
+    height: 674px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-bg{
+    background-color: #1a0f0f5e;
+    border-radius: 20px;
+    height: 674px;
+}
+.banner-content{
+    text-align: center;
+    padding: 105px 185px;
+    
+}
+.banner-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-content p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 80px;
+}
+.input{
+    background: rgba(255, 255, 255, 0.30);
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+#when{
+    width: 175px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    border: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.find{
+    width: 175px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFF;
+}
+
+/* Main styles*/
+main{
+    padding: 50px 135px; 
+}
+
+/* Popular section styles */
+.popular{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7rem;
+}
+.popular-content{
+    text-align: justify;
+}
+
+.popular-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.popular-img img{
+    width: 100%;
+}
+
