@@ -9,8 +9,9 @@
     color: #131318;;
     font-size: 1rem;
     font-weight: 400;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
+
 
 /* header styles */
 header{
@@ -50,7 +51,7 @@ header{
 }
 
 .banner{
-    height: 674px;
+    height: 468px;
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,11 +59,11 @@ header{
 .banner-bg{
     background-color: #1a0f0f5e;
     border-radius: 20px;
-    height: 674px;
+    height: 470px;
 }
 .banner-content{
     text-align: center;
-    padding: 105px 185px;
+    padding: 25px 185px;
     
 }
 .banner-title{
@@ -75,7 +76,7 @@ header{
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 .input{
     background: rgba(255, 255, 255, 0.30);
@@ -105,6 +106,7 @@ header{
     color: #FFF;
 }
 
+
 /* Main styles*/
 main{
     padding: 50px 135px; 
@@ -114,9 +116,10 @@ main{
 .popular{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 7rem;
+    gap: 4rem;
+    margin-bottom: 100px;
 }
-.popular-content{
+.popular-content p{
     text-align: justify;
 }
 
@@ -124,10 +127,24 @@ main{
     color: #131318;
     font-size: 40px;
     font-weight: 800;
-    padding-bottom: 30px;
 }
 
-.popular-img img{
-    width: 100%;
+
+/* destination section styles */
+.destination{
+    text-align: center;
 }
+.destination-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.row{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
 
