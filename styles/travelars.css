@@ -4,6 +4,9 @@
 * {
     font-family: 'Mulish', sans-serif;
 }
+body{
+    margin: 0 auto;
+}
 
 .para{
     color: #131318;;
@@ -30,6 +33,12 @@ header{
     font-family: Mulish;
     font-size: 2.4rem;
     font-weight: 800;
+    text-align: center;
+}
+
+h3 > img{
+    margin-right: 10px;
+    text-align: center;
 }
 
 
@@ -51,7 +60,7 @@ header{
 }
 
 .banner{
-    height: 468px;
+    height: 475px;
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,11 +68,11 @@ header{
 .banner-bg{
     background-color: #1a0f0f5e;
     border-radius: 20px;
-    height: 470px;
+    height: 475px;
 }
 .banner-content{
     text-align: center;
-    padding: 25px 185px;
+    padding: 40px 185px;
     
 }
 .banner-title{
@@ -109,15 +118,21 @@ header{
 
 /* Main styles*/
 main{
-    padding: 50px 135px; 
+    margin: 50px 135px; 
+    margin-bottom: 0px;
+
 }
 
 /* Popular section styles */
 .popular{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
     gap: 4rem;
     margin-bottom: 100px;
+}
+.popular-content{
+    height: 620px;
 }
 .popular-content p{
     text-align: justify;
@@ -133,6 +148,7 @@ main{
 /* destination section styles */
 .destination{
     text-align: center;
+    margin-bottom: 100px;
 }
 .destination-title{
     color: #131318;
@@ -142,8 +158,145 @@ main{
 
 .row{
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* choose us section style */
+.choose-us{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.choose-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.choose-us-content{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 18px;
+    padding-top: 50px;
+}
+.hotel{
+    width: 49%;
+    text-align: left;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05)
+}
+.hotel-content{
+    padding: 25px;
+}
+.map{
+    width: 49%;
+    text-align: left;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.map-content{
+    padding: 25px;
+}
+.pricetag{
+    width: 50%;
+    text-align: left;
+    border-radius: 16px;
+    margin-left: 285px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.pricetag-content{
+    padding: 25px;
+}
+
+/* Newsletter section styles */
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.news{
+    border: 1px solid tomato;
+    border-radius: 16px;
+    height: 425px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+.form-input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    height: 50px;
+    border: hidden;
+    padding-left: 10px;
+}
+.form-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    height: 50px;
+    border: hidden;
+    color: #FFF;
+}
+
+.save{
+    color: #FFF;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    transform: rotate(-19.628deg);
+    position: relative;
+    left: 440px;
+    bottom: 165px;
+}
+
+.save > h3{
+    font-size: 25px;
+    font-weight: 800;
+    border: 3px solid lightskyblue;
+}
+
+
+/* footer styles  */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-content{
+    margin: 0px 135px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+.social-icon{
+    padding-left: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.social-icon > ul{
+    display: flex;
+}
+.social-icon li{
+    list-style: none;
+    margin-left: 50px;
+}
+.social-icon li a{
+    text-decoration: none;
+}
+#right{
+    padding-top: 30px;
+}
+.hr{
+    width: 800px;
+    border-bottom: 1px solid gainsboro;
+    margin-left: 170px;
 }
 
 
