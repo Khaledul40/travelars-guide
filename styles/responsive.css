@@ -1,4 +1,69 @@
 /* style for small device */
 @media screen and (max-width: 576px) {
+    header{
+        margin: 5px 10px;
+    }
+    .menu{
+        display: none;
+    }
+    .banner{
+        height: 165px;
+    }
+    .banner-bg{
+        height: 165px;
+    }
+
+    main{
+        margin: 5px 10px;
+    }
+    .popular{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .popular-img img{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .choose-us-content{
+        flex-direction: column;
+    }
+    .hotel, .map, .pricetag{
+        width: 100%;
+    }
+    .pricetag{
+        margin-left: 0px;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .newsletter-image img{
+        width: 100%;
+    }
+    .social-icon{
+        padding-left: 0px;
+    }
+    .hr{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .save{
+        color: #FFF;
+        border-radius: 8px;
+        background: #FF5400;
+        width: 100px;
+        height: 50px;
+        padding: 5px;
+        text-align: center;
+        transform: rotate(-19.628deg);
+        position: relative;
+        left: 255px;
+        bottom: 85px;
+    }
     
+    .save > h3{
+        font-size: 25px;
+        font-weight: 800;
+    }
 }
