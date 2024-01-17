@@ -1,17 +1,62 @@
 /* style for small device */
 @media screen and (max-width: 576px) {
     header{
-        margin: 5px 10px;
+        margin: 5px 5px;
     }
-    .menu{
+   
+    .menu > ul{
         display: none;
     }
+    .logo h3{
+        font-size: 1.4rem;
+        font-weight: 800;
+        text-align: center;
+    }
+
     .banner{
-        height: 165px;
+        height: 815px;
     }
+    
     .banner-bg{
-        height: 165px;
+        height: 475px;
     }
+    .banner-title{
+        color: #FFF;
+        font-size: 2rem;
+        font-weight: 800;
+    }   
+    .banner-content{
+        padding: 5px 5px;
+    }
+    .input{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        border-radius: 20px;
+        padding: 20px 15px;
+        gap: 0;
+        height: 500px;
+        width: 360px;
+    }
+    .where{
+        width: 340px;
+        height: 85px;
+        font-size: 15px; 
+    }
+    #when{
+       width: 358px;
+       height: 85px;
+    }
+    .find{
+       width: 358px;
+       height: 85px;
+       border-radius: 8px;
+       background: #FF5400;
+       border: none;
+       padding-left: 10px;
+       padding-right: 10px;
+       color: #FFF;
+}
 
     main{
         margin: 5px 10px;
@@ -19,6 +64,10 @@
     .popular{
         display: grid;
         grid-template-columns: 1fr;
+    }
+    #more{
+        width: 175px;
+        height: 50px;
     }
     .popular-img img{
         width: 100%;
@@ -40,6 +89,13 @@
     }
     .newsletter-image img{
         width: 100%;
+    }
+    .footer-content{
+        margin: 0px 0px;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        
     }
     .social-icon{
         padding-left: 0px;
@@ -65,5 +121,8 @@
     .save > h3{
         font-size: 25px;
         font-weight: 800;
+    }
+    .hr{
+        display: none;
     }
 }

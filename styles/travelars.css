@@ -18,7 +18,7 @@ body{
 
 /* header styles */
 header{
-    padding: 50px 135px;
+    margin: 50px 135px;
 }
 
 .nav{
@@ -27,6 +27,7 @@ header{
     align-items: center;
 }
 .logo{
+    text-align: center;
 }
 .logo h3{
     color: #131318;
@@ -94,6 +95,15 @@ h3 > img{
     display: inline-flex;
     align-items: flex-start;
     gap: 24px;
+}
+.where{
+    width: 175px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    border: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #when{
     width: 175px;
