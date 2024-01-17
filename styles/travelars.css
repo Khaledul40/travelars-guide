@@ -27,7 +27,11 @@ header{
     align-items: center;
 }
 .logo{
-    text-align: center;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 .logo h3{
     color: #131318;
@@ -284,6 +288,13 @@ footer{
     padding-top: 70px;
     padding-bottom: 70px;
     
+}
+.footer-logo{
+    width:100px;
+    display: flex;
+    align-items: center;
+    padding-left: 495px;
+    gap: 20px;
 }
 .social-icon{
     padding-left: 400px;
